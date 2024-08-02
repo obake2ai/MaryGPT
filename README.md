@@ -13,7 +13,7 @@ All data was obtained ethically and in compliance with the site's terms and cond
 No copyright texts are used in the training of this model without the permission.
 
 - GPT-J 6B was trained on [the Pile](https://pile.eleuther.ai), a large-scale curated dataset created by [EleutherAI](https://www.eleuther.ai).
-- Frankenstein; or, The Modern Prometheus, 1818 (Public domain)
+- Frankenstein; or, The Modern Prometheus, Mary Shelley, 1818 (Public domain)
 
 ## Training procedure
 This model was trained for 402 billion tokens over 383,500 steps on TPU v3-256 pod. It was trained as an autoregressive language model, using cross-entropy loss to maximize the likelihood of predicting the next token correctly.
