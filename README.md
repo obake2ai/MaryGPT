@@ -34,6 +34,7 @@ MaryGPT
 - [Yuma Kishi](https://x.com/obake_ai)
 
 GPT-J
+- [Ben Wang](https://github.com/kingoflolz), developer of GPT-J
 - [James Bradbury](https://twitter.com/jekbradbury) for valuable assistance with debugging JAX issues.
 - [Stella Biderman](https://www.stellabiderman.com), [Eric Hallahan](https://twitter.com/erichallahan), [Kurumuz](https://github.com/kurumuz/), and [Finetune](https://github.com/finetuneanon/) for converting the model to be compatible with the `transformers` package.
 - [Leo Gao](https://twitter.com/nabla_theta) for running zero shot evaluations for the baseline models for the table.
