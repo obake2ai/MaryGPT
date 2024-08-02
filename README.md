@@ -6,7 +6,7 @@ MaryGPT is a is a text generation model and a fine-tuned version of [GPT-J 6B](h
 
 This model is **fine-tuned exclusively on text from Mary Shelley's 1818 novel ["Frankenstein; or, The Modern Prometheus"](https://www.gutenberg.org/ebooks/84)**.
 
-This will be used as a base model for [**AI Artist Yuma Kishi👤**](https://obake2ai.com/)’s activity, including art creation and exhibition curation. 
+This will be used as a base model for [**AI Artist Yuma Kishi👤**](https://obake2ai.com/)’s activity, including art creation and exhibition curation.
 
 ## Training Data Sources
 All data was obtained ethically and in compliance with the site's terms and conditions.
@@ -17,6 +17,17 @@ No copyright texts are used in the training of this model without the permission
 
 ## Training procedure
 This model was trained for 402 billion tokens over 383,500 steps on TPU v3-256 pod. It was trained as an autoregressive language model, using cross-entropy loss to maximize the likelihood of predicting the next token correctly.
+
+### How to use
+
+This model can be easily loaded using the `AutoModelForCausalLM` functionality:
+
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+tokenizer = AutoTokenizer.from_pretrained("obake2ai/MaryGPT")
+model = AutoModelForCausalLM.from_pretrained("obake2ai/MaryGPT")
+```
 
 ## Developed by
 MaryGPT
