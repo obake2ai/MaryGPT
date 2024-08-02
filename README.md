@@ -18,7 +18,7 @@ No copyright texts are used in the training of this model without the permission
 ## Training procedure
 This model was trained for 402 billion tokens over 383,500 steps on TPU v3-256 pod. It was trained as an autoregressive language model, using cross-entropy loss to maximize the likelihood of predicting the next token correctly.
 
-### How to use
+## How to use
 
 This model can be easily loaded using the `AutoModelForCausalLM` functionality:
 
